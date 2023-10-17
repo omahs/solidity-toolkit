@@ -104,7 +104,7 @@ surya describe dist/SampleContract.dist.sol
 
 ### Dependencies
 
-The `dependencies` command outputs the c3-linearization of a given contract's inheirtance graph. Contracts will be listed starting with most-derived, ie. if the same function is defined in more than one contract, the solidity compiler will use the definition in whichever contract is listed first.
+The `dependencies` command outputs the c3-linearization of a given contract's inheritance graph. Contracts will be listed starting with most-derived, ie. if the same function is defined in more than one contract, the solidity compiler will use the definition in whichever contract is listed first.
 
 ```bash
 surya dependencies SampleContract dist/SampleContract.dist.sol
